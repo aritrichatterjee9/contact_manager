@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header {
+  background-color: rgb(18, 12, 53);
+  color: aqua;
+  padding: 18px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 3s ease-in-out; /* Add this line */
+  transition: opacity 1s ease-in-out; /* Add this line */
+}
+
+.header:hover {
+  opacity: 0.3; /* Adjust the opacity value for the hover effect */
+}
+
+
+.form {
+
+  margin-top: 150px;
+}
+
+.data {
+
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+
+}
+
+.data_val{
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: gray;
+  align-items: center;
+  padding: 0px 9px 0px 9px;
+  border-radius: 10px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  transform: perspective(1000px) rotateX(0deg) rotateY(-15deg);
+  margin-bottom: 15px; /* Adjust the value as per your requirement */
+
+
+}
