@@ -2,6 +2,9 @@
 Deployed in vercel: https://contact-manager-lac.vercel.app/
 
 
+![image](https://github.com/aritrichatterjee9/contact_manager/assets/73156770/e9d843d4-21a7-477f-ae51-207ec0a0103a)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
